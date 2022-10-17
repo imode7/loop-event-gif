@@ -17,8 +17,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Gif image_array={image_array} delay={500}/>
-        <Gif image_array={image_array2} delay={10000}/>
+        <Gif image_array={image_array} delay={500} width={200} height={200} />
+        <Gif
+          image_array={image_array2}
+          delay={10000}
+          width={300}
+          height={300}
+        />
       </header>
     </div>
   );
