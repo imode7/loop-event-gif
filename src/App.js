@@ -1,5 +1,4 @@
-import './App.css';
-import Gif from './Gif';
+import Gif from "./Gif";
 
 function App() {
   const image_array = [
